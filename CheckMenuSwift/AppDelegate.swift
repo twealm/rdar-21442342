@@ -10,12 +10,20 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
+    let menuHandler = MenuHandler()
+    let menuHandlerNSObject = MenuHandlerNSObject()
+    
     @IBOutlet weak var window: NSWindow!
 
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
-        // Insert code here to initialize your application
+        let menu = NSApplication.sharedApplication().mainMenu!
+        // Change false to true for app to crash
+        if (false) {
+            self.menuHandler.setupMenu(menu)
+        } else {
+            self.menuHandlerNSObject.setupMenu(menu)
+        }
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {

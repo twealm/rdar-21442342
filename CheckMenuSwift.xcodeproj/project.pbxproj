@@ -11,6 +11,7 @@
 		694711ED1B331AB8002986C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694711EC1B331AB8002986C0 /* Images.xcassets */; };
 		694711F01B331AB8002986C0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 694711EE1B331AB8002986C0 /* MainMenu.xib */; };
 		694711FC1B331AB8002986C0 /* CheckMenuSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694711FB1B331AB8002986C0 /* CheckMenuSwiftTests.swift */; };
+		694712081B331F52002986C0 /* MenuHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694712071B331F52002986C0 /* MenuHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		694711F51B331AB8002986C0 /* CheckMenuSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMenuSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		694711FA1B331AB8002986C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		694711FB1B331AB8002986C0 /* CheckMenuSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMenuSwiftTests.swift; sourceTree = "<group>"; };
+		694712071B331F52002986C0 /* MenuHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				694711EC1B331AB8002986C0 /* Images.xcassets */,
 				694711EE1B331AB8002986C0 /* MainMenu.xib */,
 				694711E81B331AB8002986C0 /* Supporting Files */,
+				694712071B331F52002986C0 /* MenuHandler.swift */,
 			);
 			path = CheckMenuSwift;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				694711EB1B331AB8002986C0 /* AppDelegate.swift in Sources */,
+				694712081B331F52002986C0 /* MenuHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +400,7 @@
 				694712011B331AB8002986C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		694712021B331AB8002986C0 /* Build configuration list for PBXNativeTarget "CheckMenuSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +409,7 @@
 				694712041B331AB8002986C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
